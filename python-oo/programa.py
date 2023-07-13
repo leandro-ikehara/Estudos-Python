@@ -20,8 +20,5 @@ class Programa:
     def nome(self, nome):
         self._nome = nome
 
-    # def imprime(self):
-    #     print(f'- {self._nome} - {self.ano} - {self._likes}♥')
-
     def __str__(self) -> str:
         return f'- {self._nome} - {self.ano} - {self._likes}♥'
